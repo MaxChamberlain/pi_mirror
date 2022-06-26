@@ -77,7 +77,7 @@ function App() {
 
   async function getWeather(){
     const {data} = await axios.get(
-      'http://api.weatherapi.com/v1/current.json?key=6e26edac348843e4b8e10413222506&q=80108&aqi=no'
+      'https://stark-oasis-84035.herokuapp.com/http://api.weatherapi.com/v1/current.json?key=6e26edac348843e4b8e10413222506&q=80108&aqi=no'
     )
     setWeather(data)
   }
